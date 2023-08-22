@@ -1,0 +1,116 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}   
+.myheader {
+    background-color:#595151;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+.mynavbar{
+    background-color: #222539;
+    color: white;
+    padding: 15px;
+    
+}
+li{
+    display: inline;
+    margin: 10px;
+    
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: antiquewhite;
+}
+.veg-items{
+    background-color: coral;
+    height: 470px;
+    float: left;
+    width:50%
+}
+.non-veg{
+        background-color: cadetblue;
+        height: 470px;
+        float: left;
+        width:50%
+
+        
+}
+.aboutservice-left-content{
+    background-color:yellow;
+    height:500px;
+    width:70%;
+    text-align:center;
+    float:left;
+}
+.aboutservice-right-content{
+    background-color: darkolivegreen;
+    height:500px;
+    width:30%;
+    text-align:center;
+    float:left;
+}
+.home-left-conent{
+    background-color:cornsilk;
+    height:500px;
+    width:30%;
+    text-align:center;
+    float:left;  
+}
+.home-right-content{
+    background-color:darkgray;
+    height:500px;
+    width:70%;
+    text-align:center;
+    float:left;  
+}  
+
+.myfooter{
+    background-color:#595151;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+ 
+}
+.contact-left-part{
+    background-color:#e8acac;
+    height: 500px;
+    width:40%;
+    text-align:center;
+    float:left;  
+}
+.contact-right-part{
+    background-color: rgb(200, 229, 151);
+    height:500px;
+    width:60%;
+    text-align:center;
+    float:left;
+}
+.delivery-left-content{
+    background-color:lightslategray;
+    height:500px;
+    width:30%;
+    text-align:center;
+    float:left;   
+}
+.delivery-right-content{
+    background-color:palevioletred;
+    height:500px;
+    width:70%;
+    text-align:center;
+    float:left;   
+}  
+
+
+@media(max-width:500){
+    .left-part,.right-part{
+        width:100;
+    }
+}
